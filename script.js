@@ -9,7 +9,7 @@ function randInt(max) {
 }
 
 function rand_img() {
-    let url = 'https://api.thecatapi.com/v1/images/search?limit=10&breed_ids=beng&api_key=' + api_key;
+    let url = 'https://api.thecatapi.com/v1/images/search?limit=10&api_key=' + api_key;
     console.log('request url:', url);
 
     fetch(url)
