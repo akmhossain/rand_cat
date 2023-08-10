@@ -4,10 +4,6 @@ let img_container = document.querySelector('img');
 let cat_caption = document.getElementById('cat_name');
 let change_button = document.getElementById('change');
 
-function randInt(max) {
-    return Math.floor(Math.random() * max);
-}
-
 function rand_img() {
     let url = 'https://api.thecatapi.com/v1/images/search?limit=10&api_key=' + api_key;
     console.log('request url:', url);
